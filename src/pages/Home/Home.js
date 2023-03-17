@@ -11,7 +11,7 @@ export const Home = () => {
     return(
         <>
             {console.log(state)}
-            <ControlledApplicationBar title="Hello MDR" />
+            <ControlledAppBar title="Hello MDR" />
             <ControlledContainer style={{ marginTop: '100px'}}>
                 <ControlledCard style={{
                     marginTop: '20px'
