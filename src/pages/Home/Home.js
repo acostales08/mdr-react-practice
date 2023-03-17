@@ -10,9 +10,10 @@ export const Home = () => {
     }
     return(
         <>
-            <ControlledAppBar title = "WELCOME React.js day 1" />
-            <ControlledContainer>
-            <ControlledCard style={{
+            {console.log(state)}
+            <ControlledApplicationBar title="Hello MDR" />
+            <ControlledContainer style={{ marginTop: '100px'}}>
+                <ControlledCard style={{
                     marginTop: '20px'
                 }}>
                     <ControlledTypography 
